@@ -1,13 +1,9 @@
-
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import static io.restassured.RestAssured.given; //import this
 import io.restassured.response.Response;
-
 import pojoClasses.BookingDetails;
-
 import utility.AllureLogger;
 import utility.BaseTest;
 import utility.ExcelLib;

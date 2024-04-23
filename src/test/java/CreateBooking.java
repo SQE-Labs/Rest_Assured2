@@ -72,7 +72,7 @@ public class CreateBooking extends BaseTest {
 		
 		
 		//To get the newly created bookign id
-		System.out.println(response.then().extract().path("bookingid"));
+//		System.out.println(response.then().extract().path("bookingid"));
 		newID = response.then().extract().path("bookingid").toString();
 		AllureLogger.logToAllure("Retrieved booking id : "+response.then().extract().path("bookingid"));
 		
